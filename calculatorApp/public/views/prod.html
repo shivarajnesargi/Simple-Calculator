@@ -1,0 +1,34 @@
+<form name="prodForm">
+<div class="container">
+	<h3>Welcome to Product application</h3>
+	<br />
+	<div class="row">
+		<div class="col-md-3">
+			<label> Enter first Number</label>
+		</div>
+		<div class="col-md-3">
+			<input type="number" name="firstNumber" ng-model="firstNumber" required/>
+		</div>
+	</div>
+	<br />
+	<div class="row">
+		<div class="col-md-3">
+			<label> Enter second Number</label>
+		</div>
+		<div class="col-md-3">
+			<input type="number" name="secondNumber" ng-model="secondNumber" required/>
+		</div>
+	</div>
+	<br />
+	<div class="row">
+		<div class="col-md-3">
+			<button class="btn btn-primary" ng-class="{'disabled':prodForm.$invalid}" ng-click="multiplyNumbers()" >Multiply </button>
+		</div>
+		<div class="col-md-3">
+			<input type="number" ng-model="result" />
+		</div>
+	</div>
+	<br />
+
+</div>
+</form>

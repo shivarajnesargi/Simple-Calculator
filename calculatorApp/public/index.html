@@ -1,0 +1,32 @@
+<html >
+	<head>
+		<link rel="stylesheet" type="text/css" href="/CSS/css/bootstrap.min.css"> </link>
+
+		
+		
+		
+	</head>
+	<body ng-app="calculatorApp">
+		<div class="container">
+			<div class="row">
+				<h2><label>Welcome to Calculator App </label> </h2>
+			</div>
+			
+					<ul>
+						<li> <a href="#/1">Click here for addition operation</a></li>
+						<li> <a href="#/2">Click here for subtraction operation</a></li>
+						<li> <a href="#/3">Click here for multiplication operation</a></li>
+						<li> <a href="#/4">Click here for division operation</a></li>
+					</ul>
+				
+			<div ng-view> </div>
+		</div>
+		<script src="/JS/angular.min.js"> </script>
+		<script src="/JS/angular-route.min.js"> </script>
+		<script src="/JS/calculatorApp.js"> </script>
+		<script src="/controllers/additionController.js"> </script>
+		<script src="/controllers/subtractionController.js"> </script>
+		<script src="/controllers/productController.js"> </script>
+		<script src="/controllers/divisionController.js"> </script>
+	</body>
+</html>

@@ -1,0 +1,2 @@
+
+Using angular.module() with two parameters (e.g. angular.module('my-module', [])) would result in setting a new module with its corresponding dependencies. In contrast, when using angular.module('my-module') the corresponding module is looked up internally and returned to the caller (getting)
